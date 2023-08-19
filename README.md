@@ -1,3 +1,3 @@
 ## Мое резюме.
 
-### Результаты можно посмотреть [ тут.](https://filangeliin.github.io/resume/).
+### Результаты можно посмотреть [ тут](https://filangeliin.github.io/resume/).
