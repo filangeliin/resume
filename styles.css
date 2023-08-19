@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+
+* {
+    margin: 0;
+}
+
+.container { 
+    max-width: 450px;
+    margin: auto;
+}
+body {
+    font-size: 16px;
+    font-family: Roboto Serif, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    background: #f1f1f1;
+    color:rgb(75, 24, 100);
+}
+
+.underlined{
+    text-decoration: underline;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#name{
+    color: hotpink;
+}
+
+
+img{
+    border-radius: 20%;
+    border-style: dotted;
+    box-shadow: 8px 8px 20px rgba(83, 11, 11, 0.25);
+    margin: auto;
+    justify-content: center; 
+    margin-left: 35px;
+    margin-right: 15px;
+    width: 100px;
+
+}
+
+.card {
+    background-color: rgb(237, 232, 236);
+    border-radius: 5%; 
+    border: 3px;
+    border-style:dotted;
+    border-color: hotpink;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn {
+    background-color: rgb(236, 205, 221);
+    font-family: 'Gill Sans';
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    opacity: .8;
+}
+a {
+    color: hotpink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    transition: all .3s;
+}
+
+
+
+a:hover {
+    color: aqua;
+    font-size: 1.5rem;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+table td:hover{
+    background-color: #eeefff;
+    padding: auto;
+}
+
+.table tbody:nth-child(even) {
+    background: #e3d1df;
+}
+
+
+.form-group label{
+    display: block;
+}
+
+.up {
+    display: flex;
+    margin-top: 15px;
+}
+
+.under_descr {
+   margin-top: 20px;
+}
+
+
+@media (max-width:315px) {
+    img, .descr{
+        display: block;
+        margin: auto;
+    }
+    .under_decr{
+        margin-top: 15px;
+    }
+    .soc li{
+        display: block;
+
+    }
+}
